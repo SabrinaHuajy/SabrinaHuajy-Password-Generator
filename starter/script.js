@@ -100,8 +100,52 @@ function getRandom(arr) {
 
 // Function to generate password with user input
 function generatePassword() {
+  var passwordlength = prompt("How many characters would you like for your password?")
+  console.log(passwordlength)
+  var uppercaseconfirm = confirm("Would you like uppercase characters in your password?")
+  console.log(uppercaseconfirm)
+  var lowercaseconfirm = confirm("Would you like lowercase characters in your password?")
+  console.log(lowercaseconfirm)
+  var numericconfirm = confirm("Would you like numeric characters in your password?")
+  console.log(numericconfirm)
+  var specialconfirm = confirm("Would you like special characters in your password?")
+  console.log(specialconfirm)
 
+  var possiblecharaters = []
+  if (uppercaseconfirm) {
+    possiblecharaters.push(...upperCasedCharacters)
+
+  }
+  if (lowercaseconfirm) {
+    possiblecharaters.push(...lowerCasedCharacters)
+
+  }
+
+  if (numericconfirm) {
+    possiblecharaters.push(...numericCharacters)
+
+  }
+  if (specialconfirm) {
+    possiblecharaters.push(...specialCharacters)
+
+  }
+
+  console.log(finalpassword)
+
+  var finalpassword = ""
+
+  for (let i = 0; i < passwordlength; i++) {
+    finalpassword += possiblecharaters [getRandom(possiblecharaters) * passwordlength];
+
+  }
+
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+  
 }
+  
+}
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');

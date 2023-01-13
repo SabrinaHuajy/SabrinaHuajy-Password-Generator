@@ -146,6 +146,7 @@ for (let index = 0; index < array.length; index++) {
   
 }
 
+return finalpassword;
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');

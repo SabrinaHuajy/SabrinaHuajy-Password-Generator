@@ -135,18 +135,14 @@ function generatePassword() {
   var finalpassword = ""
 
   for (let i = 0; i < passwordlength; i++) {
-    finalpassword += possiblecharaters [getRandom(possiblecharaters) * passwordlength];
+    finalpassword += possiblecharaters[getRandom(possiblecharaters)];
+
+    return finalpassword;
 
   }
 
-for (let index = 0; index < array.length; index++) {
-  const element = array[index];
-  
-}
-  
 }
 
-return finalpassword;
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');

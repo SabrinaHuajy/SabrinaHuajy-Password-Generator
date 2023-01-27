@@ -137,7 +137,7 @@ function generatePassword() {
   for (let i = 0; i < passwordlength; i++) {
     finalpassword += possiblecharaters[getRandom(possiblecharaters)];
 
-    return finalpassword;
+    return password;
 
   }
 

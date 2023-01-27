@@ -105,18 +105,18 @@ function getRandom(arr) {
 
 // Function to generate password with user input
 function generatePassword() {
-  var passwordlength = prompt("How many characters would you like for your password?")
-  console.log(passwordlength)
-  var uppercaseconfirm = confirm("Would you like uppercase characters in your password?")
-  console.log(uppercaseconfirm)
-  var lowercaseconfirm = confirm("Would you like lowercase characters in your password?")
-  console.log(lowercaseconfirm)
-  var numericconfirm = confirm("Would you like numeric characters in your password?")
-  console.log(numericconfirm)
-  var specialconfirm = confirm("Would you like special characters in your password?")
-  console.log(specialconfirm)
+  var passwordlength = prompt("How many characters would you like for your password?");
+  console.log(passwordlength);
+  var uppercaseconfirm = confirm("Would you like uppercase characters in your password?");
+  console.log(uppercaseconfirm);
+  var lowercaseconfirm = confirm("Would you like lowercase characters in your password?");
+  console.log(lowercaseconfirm);
+  var numericconfirm = confirm("Would you like numeric characters in your password?");
+  console.log(numericconfirm);
+  var specialconfirm = confirm("Would you like special characters in your password?");
+  console.log(specialconfirm);
 
-  var possiblecharaters = []
+  var possiblecharaters = [];
   if (uppercaseconfirm) {
     possiblecharaters.push(...upperCasedCharacters);
 
@@ -143,7 +143,6 @@ function generatePassword() {
     finalpassword += getRandom(possiblecharaters);
     console.log(finalpassword);
     // return password;
-
   }
 
   var passwordText = document.querySelector('#password');

@@ -1,39 +1,27 @@
 # SabrinaHuajy-Password-Generator
-An application that an employee can use to generate a random password based on criteria they’ve selected.
 
-Intermediate JavaScript: Password Generator
-You'll create an app that runs in the browser and features dynamically updated HTML and CSS, all powered by JavaScript code that you will write. Your app will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+Hereby I present an application that an employee can freely use to generate a random password based on criteria they’ve selected.
 
-The password can include special characters. If you’re unfamiliar with these, see this list of Password Special Characters from the OWASP Foundation Links to an external site..
+This Password Generator has been generated as a fun Intermediate JavaScript challenge.
 
-Before you begin, download your starter code Links to an external site.for this Challenge and unzip the zip file.
+This app was created to run in the browser and feature dynamically updated HTML and CSS, all powered by JavaScript code that I wrote. My app has a relatively clean and polished user interface that is responsive, ensuring that itself adapts to multiple screen sizes.
 
-Instructions
-The following image shows the web application's appearance and functionality:
+Link to the Horiseon Website - https://sabrinahuajy.github.io/Module-1-Challenge/
 
+The following screenshot images illustrated the web application's appearance and functionality:
+<br>
 
-password generator demo
-
-Your application must:
-
-Generate a password when the button is clicked.
-
-Present a series of prompts for password criteria:
-
-Length of password:
-
-At least 10 characters but no more than 64.
-
-Character types:
-
-Lowercase
-
-Uppercase
-
-Numeric
-
-Special characters ($@%&*, etc.)
-
-Code should validate for each input and at least one character type should be selected.
-
-Once all prompts are answered, the password should be generated and displayed in an alert or written to the page.
+<img src="assets\password_generator.PNG" alt="screenshot of webpage interface">
+Figure 1: User interface of the website, a password could be generated when the button is clicked.
+<br>
+<img src="assets\prompt.PNG" alt="screenshot of webpage prompt functionality">
+Figure 2: A series of prompts would presented for password criteria which includes: 
+<br>
+1) Length of password, which would be at least 10 characters but no more than 64.
+<br>
+2) Whether or not to include any of the 4 character types, which are: Lowercase; Uppercase; Numeric and Special characters ($@%&*, etc.). 
+<br>
+PS:The website is validate for each input and at least one character type should be selected.
+<br>
+<img src="assets\generated.PNG" alt="screenshot of webpage functionality">
+Figure 3: Once all prompts are answered, the password would be generated and written to box on the page, ready to be copied and used.

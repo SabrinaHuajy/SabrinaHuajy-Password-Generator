@@ -21,12 +21,14 @@ Figure 2: A series of prompts would presented for password criteria which includ
 <br>
 <br>
 
-1) Length of password, which would be at least 10 characters but no more than 64.
-
+1. Length of password, which would be at least 10 characters but no more than 64.
 <br>
-2) Whether or not to include any of the 4 character types, which are: Lowercase; Uppercase; Numeric and Special characters ($@%&*, etc.). 
-
 <br>
+
+2. Whether or not to include any of the 4 character types, which are: Lowercase; Uppercase; Numeric and Special characters ($@%&*, etc.). 
+<br>
+<br>
+
 PS:The website is validate for each input and at least one character type should be selected.
 
 <br>

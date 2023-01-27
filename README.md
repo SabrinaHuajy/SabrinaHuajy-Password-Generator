@@ -21,17 +21,15 @@ Figure 2: A series of prompts would presented for password criteria which includ
 <br>
 <br>
 
-1. Length of password, which would be at least 10 characters but no more than 64.
-<br>
+1. Length of password, which would be at least 10 characters but no more than 64 characters.
 <br>
 
 2. Whether or not to include any of the 4 character types, which are: Lowercase; Uppercase; Numeric and Special characters ($@%&*, etc.). 
 <br>
+
+PS: The website is validate for each input and at least one character type should be selected.
 <br>
 
-PS:The website is validate for each input and at least one character type should be selected.
-
-<br>
 <img src="assets\generated.PNG" alt="screenshot of webpage functionality">
 Figure 3: Once all prompts are answered, the password would be generated and written to box on the page, ready to be copied and used.
 

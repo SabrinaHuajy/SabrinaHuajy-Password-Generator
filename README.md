@@ -11,12 +11,12 @@ Link to the Password Generator Website - https://sabrinahuajy.github.io/SabrinaH
 The following screenshot images illustrated the web application's appearance and functionality:
 <br>
 
-<img src="assets\password_generator.PNG" alt="screenshot of webpage interface">
+<img src="assets\images\password_generator.PNG" alt="screenshot of webpage interface">
 Figure 1: User interface of the website, a password could be generated when the button is clicked.
 <br>
 <br>
 
-<img src="assets\prompt.PNG" alt="screenshot of webpage prompt functionality">
+<img src="assets\images\prompt.PNG" alt="screenshot of webpage prompt functionality">
 Figure 2: A series of prompts would presented for password criteria which includes: 
 <br>
 <br>
@@ -30,6 +30,6 @@ Figure 2: A series of prompts would presented for password criteria which includ
 PS: The website is validate for each input and at least one character type should be selected.
 <br>
 
-<img src="assets\generated.PNG" alt="screenshot of webpage functionality">
+<img src="assets\images\generated.PNG" alt="screenshot of webpage functionality">
 Figure 3: Once all prompts are answered, the password would be generated and written to box on the page, ready to be copied and used.
 

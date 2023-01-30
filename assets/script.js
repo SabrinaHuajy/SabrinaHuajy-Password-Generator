@@ -105,7 +105,7 @@ function getRandom(arr) {
 
 // Function to generate password with user input
 function generatePassword() {
-  var passwordlength = prompt("How many characters would you like for your password?");
+  var passwordlength = prompt("How many characters would you like for your password? Minimum 10 characters & maximum 64.");
   console.log(passwordlength);
   var uppercaseconfirm = confirm("Would you like uppercase characters in your password?");
   console.log(uppercaseconfirm);

@@ -107,6 +107,13 @@ function getRandom(arr) {
 function generatePassword() {
   var passwordlength = prompt("How many characters would you like for your password? Minimum 10 characters & maximum 64.");
   console.log(passwordlength);
+
+  if (passwordlength < 10 || passwordlength > 64) {
+    alert("Password length must be between 10 and 64 characters");
+    return;
+  }
+  
+
   var uppercaseconfirm = confirm("Would you like uppercase characters in your password?");
   console.log(uppercaseconfirm);
   var lowercaseconfirm = confirm("Would you like lowercase characters in your password?");
@@ -117,6 +124,7 @@ function generatePassword() {
   console.log(specialconfirm);
 
   var possiblecharaters = [];
+
   if (uppercaseconfirm) {
     possiblecharaters.push(...upperCasedCharacters);
 
